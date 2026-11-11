@@ -8,7 +8,7 @@
 Pick a start and an end; GPT-4 picks four haunted or eerie stops between them, and Google Maps
 draws the route through them. Built in 24 hours at Hack&Roll 2024, in React Native with Expo.
 
-[![React Native](https://img.shields.io/badge/React%20Native-0.73-61DAFB?logo=react&logoColor=black)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L77-L231)
+[![React Native](https://img.shields.io/badge/React%20Native-0.73-61DAFB?logo=react&logoColor=black)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L77-L199)
 [![Expo](https://img.shields.io/badge/Expo-SDK%2050-000020?logo=expo&logoColor=white)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4%20Turbo-412991?logo=openai&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/model.js#L7-L31)
@@ -63,7 +63,7 @@ flowchart LR
 
 | Skill | Where it shows (click the links for the code) | Docs |
 |---|---|---|
-| **Mobile development**<br><img alt="React Native" src="https://img.shields.io/badge/React%20Native-0.73-61DAFB?logo=react&logoColor=black"> | One-screen app with hooks state, a map ref and camera animation: [`App.tsx`](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L77-L231) | [Expo MapView](https://docs.expo.dev/versions/latest/sdk/map-view/) |
+| **Mobile development**<br><img alt="React Native" src="https://img.shields.io/badge/React%20Native-0.73-61DAFB?logo=react&logoColor=black"> | One-screen app with hooks state, a map ref and camera animation: [`App.tsx`](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L77-L199) | [Expo MapView](https://docs.expo.dev/versions/latest/sdk/map-view/) |
 | **LLM integration**<br><img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-GPT--4%20Turbo-412991?logo=openai&logoColor=white"> | Prompting for structured JSON and parsing it into map coordinates: [`model.js`](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/model.js#L7-L31) | [Chat Completions](https://platform.openai.com/docs/api-reference/chat) |
 | **Maps APIs** | Places Autocomplete and Directions with waypoints: [`InputAutocomplete`, `MapViewDirections`](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L44-L172) | [react-native-maps-directions](https://www.npmjs.com/package/react-native-maps-directions) |
 | **Hackathon delivery** | Idea to demo in 24 hours, after (in the team's words) "probably the hundredth idea" | |
