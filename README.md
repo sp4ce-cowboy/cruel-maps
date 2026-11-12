@@ -12,7 +12,7 @@ draws the route through them. Built in 24 hours at Hack&Roll 2024, in React Nati
 [![Expo](https://img.shields.io/badge/Expo-SDK%2050-000020?logo=expo&logoColor=white)](package.json)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4%20Turbo-412991?logo=openai&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/model.js#L7-L31)
-[![Google Maps](https://img.shields.io/badge/Google%20Maps-Directions%20%C2%B7%20Places-4285F4?logo=googlemaps&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L158-L172)
+[![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?logo=googlemaps&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L158-L172)
 
 </div>
 
