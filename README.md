@@ -33,18 +33,9 @@ draws the route through them. Built in 24 hours at Hack&Roll 2024, in React Nati
 | **Team** | [Anant Shanker](https://github.com/Anant1902), [Khaleelur Rahman](https://devpost.com/khaleelrrahman2002), [Rubesh Suresh](https://github.com/sp4ce-cowboy) and [Evelyn](https://devpost.com/evedaktyl) |
 | **Stack** | React Native 0.73 with Expo SDK 50, TypeScript, react-native-maps, Google Places Autocomplete and Directions, the OpenAI Node SDK (GPT-4 Turbo, JSON output) |
 
-<img width="330" alt="Cruel Maps on iOS" src="https://github.com/Anant1902/cruel-maps/assets/19762596/8d4093a1-c050-4d22-9900-4ee6e2401030">
-
 ## How it works
 
-```mermaid
-flowchart LR
-    U["Origin and destination<br/>Google Places Autocomplete"] --> APP[App.tsx]
-    APP -->|"start, end"| GPT["GPT-4 Turbo<br/>4 haunted waypoints + a description, as JSON"]
-    GPT --> APP
-    APP --> DIR["Google Directions<br/>route through the waypoints"]
-    DIR --> MAP["Map: markers, purple route,<br/>the story of each stop"]
-```
+<img align="right" width="300" alt="Cruel Maps on iOS" src="https://github.com/Anant1902/cruel-maps/assets/19762596/8d4093a1-c050-4d22-9900-4ee6e2401030">
 
 - **Input:** two autocomplete fields (Google Places) set the origin and destination, and the map
   camera animates to each.
@@ -54,6 +45,17 @@ flowchart LR
   insists on a bare JSON object so the app can parse it.
 - **Route:** `MapViewDirections` draws the driving route through the waypoints, fits the map to it,
   and the description appears in a card beneath. The button reads *Start (AT YOUR OWN RISK)*.
+
+<br clear="right"/>
+
+```mermaid
+flowchart LR
+    U["Origin and destination<br/>Google Places Autocomplete"] --> APP[App.tsx]
+    APP -->|"start, end"| GPT["GPT-4 Turbo<br/>4 haunted waypoints + a description, as JSON"]
+    GPT --> APP
+    APP --> DIR["Google Directions<br/>route through the waypoints"]
+    DIR --> MAP["Map: markers, purple route,<br/>the story of each stop"]
+```
 
 ## Skills shown
 
@@ -86,3 +88,5 @@ npx expo start
 
 The app needs a Google Maps Platform key (Places and Directions) in `environments.ts` and an
 OpenAI key in `model.js`.
+
+<sub>This project later inspired [wanderminds](https://github.com/sp4ce-cowboy/wanderminds), an AI travel companion app.</sub>
