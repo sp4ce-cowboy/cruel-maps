@@ -14,10 +14,6 @@ draws the route through them. Built in 24 hours at Hack&Roll 2024, in React Nati
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4%20Turbo-412991?logo=openai&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/model.js#L7-L31)
 [![Google Maps](https://img.shields.io/badge/Google%20Maps-Directions%20%C2%B7%20Places-4285F4?logo=googlemaps&logoColor=white)](https://github.com/sp4ce-cowboy/cruel-maps/blob/501a0f5e56b5742a4cb80d08beb7094a07a74495/App.tsx#L158-L172)
 
-![Hackathon](https://img.shields.io/badge/Hack%26Roll-2024-555?style=flat-square)
-![Team](https://img.shields.io/badge/team-4-555?style=flat-square)
-![Time](https://img.shields.io/badge/built%20in-24%20h-555?style=flat-square)
-
 </div>
 
 > [!NOTE]
@@ -34,7 +30,7 @@ draws the route through them. Built in 24 hours at Hack&Roll 2024, in React Nati
 |---|---|
 | **What** | A route planner that makes every trip "exhilaratingly eerie": an LLM chooses spooky waypoints between two places in Singapore and explains them |
 | **Context** | [Hack&Roll 2024](https://hacknroll.nushackers.org/), NUS Hackers' 24-hour hackathon, 20 – 21 Jan 2024 ([Devpost](https://devpost.com/software/cruel-maps)) |
-| **Team** | [Anant Shanker](https://github.com/Anant1902), [Khaleelur Rahman](https://devpost.com/khaleelrrahman2002), [Rubesh Suresh](https://github.com/sp4ce-cowboy) and [Lai](https://devpost.com/evedaktyl) |
+| **Team** | [Anant Shanker](https://github.com/Anant1902), [Khaleelur Rahman](https://devpost.com/khaleelrrahman2002), [Rubesh Suresh](https://github.com/sp4ce-cowboy) and [Evelyn](https://devpost.com/evedaktyl) |
 | **Stack** | React Native 0.73 with Expo SDK 50, TypeScript, react-native-maps, Google Places Autocomplete and Directions, the OpenAI Node SDK (GPT-4 Turbo, JSON output) |
 
 <img width="330" alt="Cruel Maps on iOS" src="https://github.com/Anant1902/cruel-maps/assets/19762596/8d4093a1-c050-4d22-9900-4ee6e2401030">
