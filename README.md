@@ -57,7 +57,7 @@ flowchart LR
     DIR --> MAP["Map: markers, purple route,<br/>the story of each stop"]
 ```
 
-## Skills shown
+## Skills covered
 
 | Skill | Where it shows (click the links for the code) | Docs |
 |---|---|---|
